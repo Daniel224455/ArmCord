@@ -91,4 +91,4 @@ patchFunction(MediaStreamTrack.prototype, "applyConstraints", function (original
         return original.call(this, constraints);
     };
 });
-console.log("Disable Autogain by Joey Watts!", navigator.mediaDevices.getUserMedia);
+console.log("disable autogain by denishatingclub.eu!", navigator.mediaDevices.getUserMedia);
