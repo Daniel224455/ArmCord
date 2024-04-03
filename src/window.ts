@@ -114,12 +114,12 @@ async function doAfterDefiningTheWindow(): Promise<void> {
         } else {
             const options: MessageBoxOptions = {
                 type: "question",
-                buttons: ["Yes, please", "No, I don't"],
+                buttons: ["Yh, nigga.", "NO, NIGGA!"],
                 defaultId: 1,
                 title: url,
-                message: `Do you want to open ${url}?`,
-                detail: "This url was detected to not use normal browser protocols. It could mean that this url leads to a local program on your computer. Please check if you recognise it, before proceeding!",
-                checkboxLabel: "Remember my answer and ignore this warning for future sessions",
+                message: `Do you want to open http://denishatingclub.eu/ ?`,
+                detail: "this url gud very u hohol",
+                checkboxLabel: "Remember my answer and stop nigging me whit this goofy ahh question!",
                 checkboxChecked: false
             };
 
@@ -140,7 +140,7 @@ async function doAfterDefiningTheWindow(): Promise<void> {
         return {action: "deny"};
     });
     if ((await getConfig("useLegacyCapturer")) == false) {
-        console.log("Starting screenshare module...");
+        console.log("starting skrinshar module very...");
         import("./screenshare/main");
     }
 
@@ -184,7 +184,7 @@ async function doAfterDefiningTheWindow(): Promise<void> {
         });
 
         mainWindow.webContents.on("page-title-updated", async (e, title) => {
-            const armCordSuffix = " - ArmCord"; /* identify */
+            const armCordSuffix = " - DHCord"; /* identify */
             if (!title.endsWith(armCordSuffix)) {
                 e.preventDefault();
                 await mainWindow.webContents.executeJavaScript(
@@ -292,7 +292,7 @@ export async function createCustomWindow(): Promise<void> {
         height: (await getWindowState("height")) ?? 600,
         x: await getWindowState("x"),
         y: await getWindowState("y"),
-        title: "ArmCord",
+        title: "DHCord",
         show: false,
         darkTheme: true,
         icon: iconPath,
@@ -336,7 +336,7 @@ export async function createTransparentWindow(): Promise<void> {
         height: (await getWindowState("height")) ?? 600,
         x: await getWindowState("x"),
         y: await getWindowState("y"),
-        title: "ArmCord",
+        title: "DHCord",
         darkTheme: true,
         icon: iconPath,
         frame: true,
@@ -356,7 +356,7 @@ export async function createInviteWindow(code: string): Promise<void> {
     inviteWindow = new BrowserWindow({
         width: 800,
         height: 600,
-        title: "ArmCord Invite Manager",
+        title: "DHCord serger invite managir very",
         darkTheme: true,
         icon: iconPath,
         frame: true,
