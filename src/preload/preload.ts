@@ -28,7 +28,7 @@ declare global {
     }
 }
 
-console.log(`ArmCord ${version}`);
+console.log(`DHCord ${version}`);
 ipcRenderer.on("themeLoader", (_event, message) => {
     addStyle(message);
 });
@@ -40,7 +40,7 @@ if (ipcRenderer.sendSync("mobileMode")) {
     injectMobileStuff();
 }
 sleep(5000).then(async () => {
-    // dirty hack to make clicking notifications focus ArmCord
+    // dirty hack to make clicking notifications focus DHCord
     addScript(`
         (() => {
         const originalSetter = Object.getOwnPropertyDescriptor(Notification.prototype, "onclick").set;
@@ -92,7 +92,7 @@ setInterval(() => {
     }
     const el = host.firstElementChild!.cloneNode() as HTMLSpanElement;
     el.id = "ac-ver";
-    el.textContent = `ArmCord Version: ${version}`;
+    el.textContent = `DHCord Version: ${version}`;
     el.onclick = () => ipcRenderer.send("openSettingsWindow");
     host.append(el);
     let advanced = document
@@ -108,7 +108,7 @@ setInterval(() => {
     const tManager = advanced.cloneNode(true) as HTMLElement;
     const fQuit = advanced.cloneNode(true) as HTMLElement;
     const keybindMaker = advanced.cloneNode(true) as HTMLElement;
-    acSettings.textContent = "ArmCord Settings";
+    acSettings.textContent = "DHCord Settings";
     acSettings.id = "acSettings";
     acSettings.onclick = () => injectSettings();
     tManager.textContent = "Themes";
