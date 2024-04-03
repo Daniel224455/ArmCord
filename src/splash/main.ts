@@ -7,7 +7,7 @@ export async function createSplashWindow(): Promise<void> {
     splashWindow = new BrowserWindow({
         width: 300,
         height: 350,
-        title: "ArmCord",
+        title: "DHCord",
         show: true,
         darkTheme: true,
         icon: iconPath,
