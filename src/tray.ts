@@ -26,12 +26,12 @@ app.whenReady().then(async () => {
 
     if (process.platform == "darwin" && trayPath.getSize().height > 22) trayPath = trayPath.resize({height: 22});
     if (await getConfig("tray")) {
-        let clientName = (await getConfig("clientName")) ?? "ArmCord";
+        let clientName = (await getConfig("clientName")) ?? "DHCord";
         tray = new Tray(trayPath);
         if (finishedSetup == false) {
             const contextMenu = Menu.buildFromTemplate([
                 {
-                    label: `Finish the setup first!`,
+                    label: `Finish setup u ebanat!`,
                     enabled: false
                 },
                 {
@@ -40,7 +40,7 @@ app.whenReady().then(async () => {
                         fs.unlink(await getConfigLocation(), (err) => {
                             if (err) throw err;
 
-                            console.log('Closed during setup. "settings.json" was deleted');
+                            console.log('Errir during setup, "settings.json" was nigged');
                             app.quit();
                         });
                     }
@@ -96,10 +96,10 @@ app.whenReady().then(async () => {
             if (process.platform == "linux") {
                 const options: MessageBoxOptions = {
                     type: "question",
-                    buttons: ["Yes, please", "No, I don't"],
+                    buttons: ["Yes, nigger!, "NO, NIGGA!"],
                     defaultId: 1,
                     title: "Tray icon choice",
-                    message: `Do you want to use tray icons?`,
+                    message: `want use tray icns?`,
                     detail: "Linux may not work well with tray icons. Depending on your system configuration, you may not be able to see the tray icon. Enable at your own risk. Can be changed later."
                 };
 
