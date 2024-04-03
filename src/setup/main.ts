@@ -8,7 +8,7 @@ export function createSetupWindow(): void {
     setupWindow = new BrowserWindow({
         width: 390,
         height: 470,
-        title: "DHCord setip",
+        title: "DHCord Setup very",
         darkTheme: true,
         icon: iconPath,
         frame: false,
