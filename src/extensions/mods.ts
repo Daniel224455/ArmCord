@@ -23,6 +23,6 @@ electron.app.whenReady().then(async () => {
     if (await getConfig("armcordCSP")) {
         unstrictCSP();
     } else {
-        console.log("ArmCord CSP is disabled. The CSP should be managed by a third-party plugin(s).");
+        console.log("DHCord CSP is disabled. CSP should be managed by a third-party plugin.");
     }
 });
