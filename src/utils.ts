@@ -29,29 +29,29 @@ export async function checkIfConfigIsBroken(): Promise<void> {
     try {
         let settingsData = fs.readFileSync(getConfigLocation(), "utf-8");
         JSON.parse(settingsData);
-        console.log("Config is fine");
+        console.log("Config is gud");
     } catch (e) {
         console.error(e);
-        console.log("Detected a corrupted config");
+        console.log("Detected a niggered config");
         setup();
         dialog.showErrorBox(
-            "Oops, something went wrong.",
-            "ArmCord has detected that your configuration file is corrupted, please restart the app and set your settings again. If this issue persists, report it on the support server/Github issues."
+            "ahh, errir goofy.",
+            "DHCord has detected that your configuration file is niggered, please restart the app and set your settings again. If this issue persists, report it on the support server/Github issues."
         );
     }
     try {
         let windowData = fs.readFileSync(getWindowStateLocation(), "utf-8");
         JSON.parse(windowData);
-        console.log("Window config is fine");
+        console.log("Window config is gud very");
     } catch (e) {
         console.error(e);
         fs.writeFileSync(getWindowStateLocation(), "{}", "utf-8");
-        console.log("Detected a corrupted window config");
+        console.log("Detected a niggered window config");
     }
 }
 
 export function setup(): void {
-    console.log("Setting up temporary ArmCord settings.");
+    console.log("Setting up temporary DHCord settings, FUCKING.");
     const defaults: Settings = {
         windowStyle: "default",
         channel: "stable",
@@ -138,11 +138,11 @@ export async function injectElectronFlags(): Promise<void> {
     };
     switch (await getConfig("performanceMode")) {
         case "performance":
-            console.log("Performance mode enabled");
+            console.log("fast mode very enabled");
             app.commandLine.appendSwitch(presets.performance);
             break;
         case "battery":
-            console.log("Battery mode enabled");
+            console.log("slow mode ahh goofy enabled");
             app.commandLine.appendSwitch(presets.battery);
             break;
         default:
@@ -174,7 +174,7 @@ export async function getLang(object: string): Promise<string> {
             let parsed = JSON.parse(rawdata);
             language = parsed.lang;
         } catch (_e) {
-            console.log("Language config file doesn't exist. Fallback to English.");
+            console.log("Language config file nigged. Fallback to Denisian.");
             language = "en-US";
         }
     }
@@ -207,7 +207,7 @@ export async function getLangName(): Promise<string> {
             let parsed = JSON.parse(rawdata);
             language = parsed.lang;
         } catch (_e) {
-            console.log("Language config file doesn't exist. Fallback to English.");
+            console.log("Language config file nigged. Fallback to Denisian.");
             language = "en-US";
         }
     }
@@ -248,12 +248,12 @@ export async function getWindowState<K extends keyof WindowState>(object: K): Pr
     console.log(`[Window state manager] ${returndata}`);
     return returndata[object];
 }
-//ArmCord Settings/Storage manager
+//DHCord Settings/Storage manager
 
 export function checkForDataFolder(): void {
     const dataPath = path.join(path.dirname(app.getPath("exe")), "armcord-data");
     if (fs.existsSync(dataPath) && fs.statSync(dataPath).isDirectory()) {
-        console.log("Found armcord-data folder. Running in portable mode.");
+        console.log("Found DHCord-data folder. Running in portable goofy ahh mode.");
         app.setPath("userData", dataPath);
     }
 }
@@ -338,15 +338,15 @@ export async function checkIfConfigExists(): Promise<void> {
             fs.mkdirSync(storagePath);
             console.log("Created missing storage folder");
         }
-        console.log("First run of the ArmCord. Starting setup.");
+        console.log("First run of the DHCord. Starting setip.");
         setup();
         firstRun = true;
     } else if ((await getConfig("doneSetup")) == false) {
-        console.log("First run of the ArmCord. Starting setup.");
+        console.log("First run of the DHCord. Starting setip.");
         setup();
         firstRun = true;
     } else {
-        console.log("ArmCord has been run before. Skipping setup.");
+        console.log("DHCord has been run before. denishatingclub.eu");
     }
 }
 
@@ -385,8 +385,8 @@ async function updateModBundle(): Promise<void> {
             console.log("[Mod loader] Failed to install mods");
             console.error(e);
             dialog.showErrorBox(
-                "Oops, something went wrong.",
-                "ArmCord couldn't install mods, please check if you have stable internet connection and restart the app. If this issue persists, report it on the support server/Github issues."
+                "ahh, errir goofy.",
+                "DHCord couldn't install mods, please check if you have stable internet connection and restart the app. If this issue persists, report it on the support server/Github issues."
             );
         }
     } else {
@@ -463,7 +463,7 @@ export async function installModLoader(): Promise<void> {
         console.log("[Mod loader] Failed to install modloader");
         console.error(e);
         dialog.showErrorBox(
-            "Oops, something went wrong.",
+            "ahh, errir goofy.",
             "ArmCord couldn't install internal mod loader, please check if you have stable internet connection and restart the app. If this issue persists, report it on the support server/Github issues."
         );
     }
