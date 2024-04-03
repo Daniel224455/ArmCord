@@ -1,6 +1,6 @@
 import {contextBridge, ipcRenderer} from "electron";
 //import {addStyle} from "../utils";
-console.log("ArmCord Settings");
+console.log("DHCord settnigs");
 console.log(process.platform);
 contextBridge.exposeInMainWorld("settings", {
     save: (...args: any) => ipcRenderer.send("saveSettings", ...args),
