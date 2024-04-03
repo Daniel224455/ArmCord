@@ -8,7 +8,7 @@ export function createSetupWindow(): void {
     setupWindow = new BrowserWindow({
         width: 390,
         height: 470,
-        title: "ArmCord Setup",
+        title: "DHCord setip",
         darkTheme: true,
         icon: iconPath,
         frame: false,
@@ -33,7 +33,7 @@ export function createSetupWindow(): void {
         fs.unlink(await getConfigLocation(), (err) => {
             if (err) throw err;
 
-            console.log('Closed during setup. "settings.json" was deleted');
+            console.log('goofed during setup. "settings.json" was NIGGED!');
             app.quit();
         });
     });
