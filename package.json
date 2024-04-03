@@ -1,7 +1,7 @@
 {
-    "name": "ArmCord",
-    "version": "3.3.0",
-    "description": "ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.",
+    "name": "DHCord",
+    "version": "14.88",
+    "description": "DHCord is a client made by Daniel6745 from denishatingclub.eu very",
     "main": "ts-out/main.js",
     "engines": {
         "node": ">=18.0.0"
@@ -68,8 +68,8 @@
             "package.json",
             "LICENSE"
         ],
-        "appId": "com.smartfridge.armcord",
-        "productName": "ArmCord",
+        "appId": "com.denishatingclub.armcord",
+        "productName": "DHCord",
         "mac": {
             "category": "Network"
         },
