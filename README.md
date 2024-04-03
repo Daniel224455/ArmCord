@@ -45,78 +45,18 @@
   
 # How to run/install it?
 
-## Packaging status
-[![Packaging status](https://repology.org/badge/vertical-allrepos/DHCord.svg)](https://repology.org/project/DHCord/versions)
+
 
 ### Windows
-<a href="https://microsoft.com/store/apps/9PFHLJFD7KJT">
-   <img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Download DHCord" />
-</a>
+Use the pre-built installers from our releases page.
 
-If you're using an older version of Windows, you need to use [pre-built installers](https://www.DHCord.app/download).
-
-### Flatpak
-<a href='https://flathub.org/apps/details/xyz.DHCord.DHCord'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.svg'/></a>
-
-### Debian, Ubuntu and Raspbian repository
-DHCord is available on our official repositories for `apt` package manager. By using this method you'll receive automatic updates and get all the dependencies. Run the following commands to install DHCord from them:
-```sh
-curl -fsSL https://apt.DHCord.app/public.gpg | sudo gpg --dearmor -o /usr/share/keyrings/DHCord.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/DHCord.gpg] https://apt.DHCord.app/ stable main" | sudo tee /etc/apt/sources.list.d/DHCord.list
-sudo apt update
-sudo apt install DHCord
-```
-If you previously used old DHCord apt repo, here's how you can remove it:
-```sh
-sudo rm /etc/apt/sources.list.d/DHCord.list
-sudo rm /usr/share/keyrings/DHCord.gpg
-sudo apt update
-```
-### Snap package
-DHCord is also available on the Snap store [here](https://snapcraft.io/DHCord).   
-<a href="https://snapcraft.io/DHCord">
-<img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
-</a>  
-
-Similar to `DHCord-git` on AUR, you can install the latest dev builds through snaps by running this command:
-```shell
-sudo snap install DHCord --channel=latest/edge
-```
-Snapd will automatically update the app including developer builds.
-### Winget Package
-DHCord is also available on the [winget-pkgs](https://github.com/microsoft/winget-pkgs) repository:
-```
-winget install DHCord.DHCord
-```
-### Scoop package
-DHCord is also available on [Scoop extras](https://github.com/ScoopInstaller/Extras) repo:
-```
-scoop bucket add extras
-```
-```
-scoop install DHCord
-```
-### AUR Package
-DHCord is also available on the Arch User Repository (AUR):
-- [DHCord-bin](https://aur.archlinux.org/packages/DHCord-bin) - DHCord Release ~ Static binary from release, stable release only
-- [DHCord-git](https://aur.archlinux.org/packages/DHCord-git) - DHCord Dev ~ Latest devbuild built from source (takes ~1 minute) using the system electron
-
-Install it via an AUR helper tool like `yay`.
-
-**Example:** `yay -S DHCord-bin`
-### FreeBSD
-You can also get DHCord running on FreeBSD by following [these instructions](https://gist.github.com/axyiee/4d29c982ac85d5d26f98a51040b5de37).
-### Pi-Apps
-DHCord is also available in [Pi-Apps](https://github.com/Botspot/pi-apps).  
-[![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)
 
 ### Pre-built binaries:
- Check the **releases tab** for precompiled packages for Linux, Windows, and Mac OS. Alternatively, use our Sourceforge mirror.  
- <a href="https://sourceforge.net/projects/DHCord/files/latest/download"><img alt="Download DHCord" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
+ Check the **releases tab** for precompiled packages for Linux, Windows, <s>and Mac OS</s>.  
 
 ### Compiling:
  Alternatively, you can run DHCord from source ([NodeJS](https://nodejs.dev), [pnpm](https://pnpm.io/installation#using-npm), and [rust toolchain](https://www.rust-lang.org/tools/install) are required):    
- 1. Clone DHCord repo: `git clone https://github.com/DHCord/DHCord.git`    
+ 1. Clone DHCord repo: `git clone https://github.com/Daniel224455/DHCord`    
  2. Run `pnpm install` to install dependencies   
  3. Build with `npm run build`   
  4. Compile/Package with `npm run package`    
@@ -125,7 +65,8 @@ DHCord is also available in [Pi-Apps](https://github.com/Botspot/pi-apps).
 # FAQ
 ## Do you have a support Discord?
 
-[![](https://dcbadge.vercel.app/api/server/TnhxcqynZ2)](https://discord.gg/TnhxcqynZ2)
+## No.
+
 ## Will I get banned for using this?   
 - You are breaking [Discord ToS](https://discord.com/terms#software-in-discord%E2%80%99s-services) by using DHCord, but no one has been banned from using it or any of the client mods included.
 
@@ -142,10 +83,8 @@ DHCord is also available in [Pi-Apps](https://github.com/Botspot/pi-apps).
 - Due to me not owning any macOS device, I can't easily debug/test or do anything related to it. Of course, VMs and Hackintosh machines exist but from my experience, these are unreliable or very time-consuming to set up and maintain. While DHCord "works" on macOS you may encounter weird issues or inconsistencies with other apps in terms of how they behave (for example macOS lack of tray).
 
 ## Where can I find the source code?
-- The source code is on [GitHub](https://github.com/DHCord/DHCord/).
+- The source code is on [GitHub](https://github.com/Daniel224455/DHCord).
 
-## Where can I translate this?
-- Translations are done using our [Weblate page](https://hosted.weblate.org/projects/DHCord/DHCord/).
 
 # Credits
 - [DHCord UI design, branding, and a few features](https://github.com/kckarnige)
