@@ -17,7 +17,7 @@ export function createSettingsWindow(): void {
         settingsWindow = new BrowserWindow({
             width: 660,
             height: 670,
-            title: `ArmCord Settings | Version: ${getDisplayVersion()}`,
+            title: `DHCord Settings | Version: ${getDisplayVersion()}`,
             darkTheme: true,
             frame: true,
             backgroundColor: "#2f3136",
