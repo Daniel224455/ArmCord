@@ -25,7 +25,7 @@ function registerCustomHandler(): void {
             capturerWindow = new BrowserWindow({
                 width: 800,
                 height: 600,
-                title: "ArmCord Screenshare",
+                title: "DHCord Screenshare",
                 darkTheme: true,
                 icon: iconPath,
                 frame: true,

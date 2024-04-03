@@ -12,7 +12,7 @@ app.whenReady().then(() => {
             const manifest = fs.readFileSync(`${pluginFolder}/${file}/manifest.json`, "utf8");
             const pluginFile = JSON.parse(manifest);
             session.defaultSession.loadExtension(`${pluginFolder}/${file}`);
-            console.log(`[Mod loader] Loaded ${pluginFile.name} made by ${pluginFile.author}`);
+            console.log(`[DHCordPluginBootStrap] Loaded plugin ${pluginFile.name} made by ${pluginFile.author}`);
         } catch (err) {
             console.error(err);
         }
