@@ -16,7 +16,7 @@ export function createKeybindWindow(): void {
         keybindWindow = new BrowserWindow({
             width: 720,
             height: 670,
-            title: `ArmCord Global Keybinds Maker`,
+            title: `DHCord Global Keybinds Maker`,
             darkTheme: true,
             frame: true,
             backgroundColor: "#2f3136",
