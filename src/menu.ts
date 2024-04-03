@@ -41,37 +41,37 @@ export async function setMenu(): Promise<void> {
     }
     let template: Electron.MenuItemConstructorOptions[] = [
         {
-            label: "ArmCord",
+            label: "DHCord",
             submenu: [
-                {label: "About ArmCord", role: "about"}, //orderFrontStandardAboutPanel
+                {label: "About DHCord", role: "about"}, //orderFrontStandardAboutPanel
                 {type: "separator"},
                 {
-                    label: "Developer tools",
+                    label: "DevTools",
                     accelerator: "CmdOrCtrl+Shift+I",
                     click() {
                         BrowserWindow.getFocusedWindow()!.webContents.toggleDevTools();
                     }
                 },
                 {
-                    label: "Open settings",
+                    label: "OpenSettings",
                     accelerator: "CmdOrCtrl+Shift+'",
                     click() {
                         createSettingsWindow();
                     }
                 },
                 {
-                    label: "Fullscreen",
+                    label: "EnableFullscreen",
                     role: "togglefullscreen"
                 },
                 {
-                    label: "Reload",
+                    label: "Reload DHCord",
                     accelerator: "CmdOrCtrl+R",
                     click() {
                         mainWindow.reload();
                     }
                 },
                 {
-                    label: "Quit",
+                    label: "ExitDHCord",
                     accelerator: "CmdOrCtrl+Q",
                     click() {
                         app.quit();
@@ -80,7 +80,7 @@ export async function setMenu(): Promise<void> {
             ]
         },
         {
-            label: "Edit",
+            label: "EditMsg",
             submenu: [
                 {label: "Undo", accelerator: "CmdOrCtrl+Z", role: "undo"},
                 {label: "Redo", accelerator: "Shift+CmdOrCtrl+Z", role: "redo"},
@@ -98,7 +98,7 @@ export async function setMenu(): Promise<void> {
             ]
         },
         {
-            label: "Zoom",
+            label: "ZoomIn",
             submenu: [
                 {label: "Zoom in", accelerator: "CmdOrCtrl+Plus", role: "zoomIn"},
                 // Fix for zoom in on keyboards with dedicated + like QWERTZ (or numpad)
