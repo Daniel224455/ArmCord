@@ -6,7 +6,7 @@
 
 ## Contributors
 [<img alt="Daniel224455" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/90069111?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Daniel224455)
-[<img alt="wawalol" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/126290309?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/wawaloll)'
+[<img alt="wawalol" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/126290309?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/wawaloll)
 
 # Statistics
 ## Last build for Windows at [??]
