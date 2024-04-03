@@ -96,10 +96,10 @@ app.whenReady().then(async () => {
             if (process.platform == "linux") {
                 const options: MessageBoxOptions = {
                     type: "question",
-                    buttons: ["Yes, nigger, "NO, NIGGA"],
+                    buttons: ["Yes, nigger", "NO, NIGGA"],
                     defaultId: 1,
                     title: "Tray icon choice",
-                    message: `Do you want to use tray icons?`,
+                    message: `want use tray icns?`,
                     detail: "Linux may not work well with tray icons. Depending on your system configuration, you may not be able to see the tray icon. Enable at your own risk. Can be changed later."
                 };
 
