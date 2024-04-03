@@ -64,15 +64,15 @@ app.whenReady().then(async () => {
                     }
                 },
                 {
-                    label: "Open Settings",
+                    label: "Open Settnigs",
                     click() {
                         createSettingsWindow();
                     }
                 },
                 {
-                    label: "Support Discord Server",
+                    label: "denis serger very",
                     click() {
-                        createInviteWindow("TnhxcqynZ2");
+                        createInviteWindow("69sdnjChD4");
                     }
                 },
                 {
@@ -96,10 +96,10 @@ app.whenReady().then(async () => {
             if (process.platform == "linux") {
                 const options: MessageBoxOptions = {
                     type: "question",
-                    buttons: ["Yes, nigger!, "NO, NIGGA!"],
+                    buttons: ["Yes, nigger, "NO, NIGGA"],
                     defaultId: 1,
                     title: "Tray icon choice",
-                    message: `want use tray icns?`,
+                    message: `Do you want to use tray icons?`,
                     detail: "Linux may not work well with tray icons. Depending on your system configuration, you may not be able to see the tray icon. Enable at your own risk. Can be changed later."
                 };
 
