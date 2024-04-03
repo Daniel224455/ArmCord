@@ -180,7 +180,7 @@ export function registerIpc(): void {
     ipcMain.on("copyDebugInfo", () => {
         let settingsFileContent = fs.readFileSync(getConfigLocation(), "utf-8");
         clipboard.writeText(
-            `**OS:** ${os.platform()} ${os.version()}\n**Architecture:** ${os.arch()}\n**ArmCord version:** ${getVersion()}\n**Electron version:** ${
+            `**OS:** ${os.platform()} ${os.version()}\n**ARM64orX86:** ${os.arch()}\n**DHCord version:** ${getVersion()}\n**Ebanat version:** ${
                 process.versions.electron
             }\n\`${settingsFileContent}\``
         );
