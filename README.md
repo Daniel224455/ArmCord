@@ -4,6 +4,10 @@
  <br>DHCord is a custom client designed to enhance your Discord experience while keeping everything lightweight. 
 </div>
 
+## Contributors
+[<img alt="Daniel224455" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/90069111?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Daniel224455)
+[<img alt="wawalol" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/126290309?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/wawaloll)
+
 # Features
 
 - **Standalone client** 
@@ -154,3 +158,5 @@ DHCord is also available in [Pi-Apps](https://github.com/Botspot/pi-apps).
 - (Pre v3.0.0) [custom-electron-titlebar](https://github.com/AlexTorresSk/custom-electron-titlebar)
 - [electron-builder](https://electron.build)
 Discord is trademark of Discord Inc. DHCord and DHCord is not affiliated with or endorsed by Discord Inc. 
+
+
