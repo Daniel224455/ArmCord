@@ -22,14 +22,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/armcord/armcord.git"
+        "url": "git+https://github.com/Daniel224455/DHCord.git"
     },
     "author": "smartfrigde",
     "license": "OSL-3.0",
     "bugs": {
-        "url": "https://github.com/armcord/armcord/issues"
+        "url": "https://github.com/Daniel224455/DHCord/issues"
     },
-    "homepage": "https://github.com/armcord/armcord#readme",
+    "homepage": "https://github.com/Daniel224455/DHCord#readme",
     "devDependencies": {
         "@types/node": "^18.11.9",
         "@types/ws": "^8.5.3",
