@@ -1,7 +1,7 @@
 
 <div align="center">
 <img src="http://denishatingclub.eu/images/img69.jpg" width="520">
- <br>DHCord is a custom client designed to enhance your Discord experience while keeping everything lightweight. 
+ <br>DHCord is a custom client based on ArmCord, designed to enhance your Discord experience while keeping everything lightweight. 
 </div>
 
 ## Contributors
@@ -16,7 +16,7 @@
 
 - **Various mods built-in**
  
-   Enjoy [Vencord](https://github.com/Vendicated/Vencord), [Shelter](https://github.com/uwu/shelter) and their many features, or have a more vanilla experience, it's your choice!
+   [Vencord](https://github.com/Vendicated/Vencord) and [Shelter](https://github.com/uwu/shelter).
 
 - **Themes**
 
@@ -28,7 +28,7 @@
 
 - **Supports Rich Presence**
 
-   Unlike other clients, DHCord supports rich presence (game activity) out of the box thanks to [arRPC](https://arrpc.openasar.dev).
+   DHCord supports rich presence (game activity) out of the box thanks to [arRPC](https://arrpc.openasar.dev).
    
 - **Mobile support**
 
@@ -41,13 +41,11 @@
 
 - **Cross-platform support!**
 
-   DHCord was originally created for ARM64 Linux devices since Discord doesn't support them. We soon decided to support every platform that [Electron supports](https://github.com/electron/electron#platform-support)!
+   ArmCOrd was originally created for ARM64 Linux devices since Discord doesn't support them. We soon decided to support every platform that [Electron supports](https://github.com/electron/electron#platform-support)!
   
 # How to run/install it?
 
-
-
-### Windows
+### Windows and Linux
 Use the pre-built installers from our releases page.
 
 
@@ -65,7 +63,7 @@ Use the pre-built installers from our releases page.
 # FAQ
 ## Do you have a support Discord?
 
-## No.
+[Yes, we do.](https://discord.gg/jNYKGYfQ)
 
 ## Will I get banned for using this?   
 - You are breaking [Discord ToS](https://discord.com/terms#software-in-discord%E2%80%99s-services) by using DHCord, but no one has been banned from using it or any of the client mods included.
@@ -87,7 +85,7 @@ Use the pre-built installers from our releases page.
 
 
 # Credits
-- [DHCord UI design, branding, and a few features](https://github.com/kckarnige)
+- [ArmCord UI design, branding, and a few features](https://github.com/kckarnige)
 - [OpenAsar](https://github.com/GooseMod/OpenAsar)
 - [arRPC (for Rich Presence)](https://github.com/OpenAsar/arrpc)
 - (pre v3.1.0) [Cumcord](https://github.com/Cumcord/Cumcord)
