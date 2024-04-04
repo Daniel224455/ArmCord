@@ -1,6 +1,6 @@
 {
     "name": "DHCord",
-    "version": "14.8.8",
+    "version": "3.3.0",
     "description": "DHCord is a client made by Daniel6745 and wawalol from denishatingclub.eu very",
     "main": "ts-out/main.js",
     "engines": {
