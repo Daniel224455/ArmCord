@@ -12,7 +12,8 @@
 ## Last build for Windows at April 3, 2024 at 8:11 p.m.
 ## Last build for Linux(Debian-based OS) at 4:12a.m.
 
-
+# Change Splash
+## To change the splash before building, go to src\splash. Replace the line 21, which should contain `<source src="` to any video URL.
 # Features
 
 - **Standalone client** 
