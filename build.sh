@@ -3,7 +3,8 @@ echo "DHCord v1.0Alpha installer"
 echo "installing pnpm..."
 sudo apt install curl git wget npm
 npm install -g pnpm
-echo "installing pnpm finished..."
+pnpm install
+echo "installing pnpm and dependencies finished..."
 echo "installing nodeJS"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
