@@ -19,6 +19,7 @@
         "lint": "eslint src --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
         "CIbuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip && electron-builder --macos zip",
         "kickstartBuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip",
+        "kickstartBuildAarch64": "npm run build && electron-builder --arm64 --linux zip && electron-builder --arm64 --windows zip",
         "prepare": "git config --local core.hooksPath .hooks/"
     },
     "repository": {
