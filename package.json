@@ -76,7 +76,7 @@
         "linux": {
             "icon": "build/icon.icns",
             "category": "Network",
-            "maintainer": "smartfridge@vivaldi.net",
+            "maintainer": "Daniel6745, wawalol",
             "target": [
                 "deb",
                 "tar.gz",
