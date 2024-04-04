@@ -17,9 +17,9 @@ if "%CHOICE%" equ "3" goto COMPILE_DHCORD
 :PRINT_LINKS
    @echo off
    @echo.
-   @echo https://nodejs.org/en
-   @echo https://www.rust-lang.org/tools/install (use rustup!)
-   @echo https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
+   start https://nodejs.org/en
+   start https://www.rust-lang.org/tools/install
+   start https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
    @echo After installing them, please re-run the batch and go to step 2.
    PAUSE
    exit
