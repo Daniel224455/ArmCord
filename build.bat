@@ -5,12 +5,15 @@
 @echo ************************************************
 @echo.
 @echo Do you have Rust Toolchain, nodeJS and npm/pnpm?
-@echo.^<1^> Yes, i do.
-@echo.^<2^> No, give me links to install them.
+@echo.^<1^> No, give me links to install them.
+@echo.^<2^> Yes - Install Dependencies
+@echo.^<3^> Compile DHCord
 @echo.
 set /p CHOICE="Please select:"
-if "%CHOICE%" equ "1" goto COMPILE_DHCORD
-if "%CHOICE%" equ "2" goto PRINT_LINKS
+if "%CHOICE%" equ "1" goto PRINT_LINKS
+if "%CHOICE%" equ "2" goto INSTALL_DEPENDENCIES
+if "%CHOICE%" equ "3" goto COMPILE_DHCORD
+
 :PRINT_LINKS
    @echo off
    @echo.
@@ -23,10 +26,18 @@ if "%CHOICE%" equ "2" goto PRINT_LINKS
 :COMPILE_DHCORD
 ) else (
    @echo.
-   npm install -g pnpm
-   pnpm install
    npm run build
    npm run releaseBuild
    @echo DHCord finished compiling. Go to the /dist/ folder and install DHCord.
    PAUSE
+   @echo.
+
+:INSTALL_DEPENDENCIES
+) else (
+   @echo.
+   npm install -g pnpm
+   PAUSE
+   pnpm install
+   @echo.
+   @echo Re-run the bat and go to step 3.
 )
