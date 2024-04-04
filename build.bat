@@ -16,6 +16,7 @@ if "%CHOICE%" equ "2" goto PRINT_LINKS
    @echo.
    @echo https://nodejs.org/en
    @echo https://www.rust-lang.org/tools/install (use rustup!)
+   @echo https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
    @echo After installing them, please re-run the batch.
    PAUSE
    @echo.
@@ -23,7 +24,9 @@ if "%CHOICE%" equ "2" goto PRINT_LINKS
 ) else (
    @echo.
    PAUSE
-   echo test
-   echo.
-   echo finished
+   npm install -g pnpm
+   pnpm install
+   npm run build
+   npm run releaseBuild
+   @echo DHCord finished compiling. Go to the /dist/ folder and install DHCord.
 )
