@@ -9,8 +9,8 @@
 @echo.^<2^> No, give me links to install them.
 @echo.
 set /p CHOICE="Please select:"
-if "%CHOICE%" equ "Y" goto COMPILE_DHCORD
-if "%CHOICE%" equ "N" goto PRINT_LINKS
+if "%CHOICE%" equ "1" goto COMPILE_DHCORD
+if "%CHOICE%" equ "2" goto PRINT_LINKS
 :PRINT_LINKS
    @echo off
    @echo.
