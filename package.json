@@ -17,7 +17,8 @@
         "packageQuick": "npm run build && electron-builder --dir",
         "format": "prettier --write src *.json",
         "lint": "eslint src --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
-        "CIbuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip",
+        "CIbuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip && electron-builder --macos zip",
+        "kickstartBuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip",
         "prepare": "git config --local core.hooksPath .hooks/"
     },
     "repository": {
