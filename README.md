@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="http://denishatingclub.eu/images/img69.jpg" width="520">
+<img src="https://cdn.discordapp.com/attachments/1217558696641433681/1225236410144133251/Wide310x150Logo.png?ex=66206553&is=660df053&hm=5fa181a93254fcf4bcf1c9f4bcc6762016f5521eae73a9cce5df5443bdb76695&" width="520">
  <br>DHCord is a custom client based on ArmCord, designed to enhance your Discord experience while keeping everything lightweight. 
 </div>
 
