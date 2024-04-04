@@ -46,28 +46,26 @@
 
 - **Cross-platform support!**
 
-   ArmCOrd was originally created for ARM64 Linux devices since Discord doesn't support them. We soon decided to support every platform that [Electron supports](https://github.com/electron/electron#platform-support)!
+   ArmCord was originally created for ARM64 Linux devices since Discord doesn't support them. We soon decided to support every platform that [Electron supports](https://github.com/electron/electron#platform-support)!
   
 # How to run/install it?
 
 ### Windows and Linux
- Alternatively, you can run DHCord from source ([NodeJS](https://nodejs.dev), [pnpm](https://pnpm.io/installation#using-npm), and [rust toolchain](https://www.rust-lang.org/tools/install) are required):
  0. Run CMD with Admin privileges.    
- 1. Clone DHCord repo: `git clone https://github.com/Daniel224455/DHCord`    
- 2. Run `pnpm install` to install dependencies   
- 3. Build with `npm run build`   
- 4. Compile/Package with `npm run package`  
+ 1. Clone DHCord repo: `git clone https://github.com/Daniel224455/DHCord && cd DHCord`    
+ 2. Run `chmod 755 build.sh`
+ 3. Build with `./build.sh`   
+ 4. Go to dist folder and there should be the compiled file  
 
 
 ### Pre-built binaries:
  Check the **releases tab** for precompiled packages for Linux, Windows, <s>and Mac OS</s>.  
 
 ### Compiling:
- Alternatively, you can run DHCord from source ([NodeJS](https://nodejs.dev), [pnpm](https://pnpm.io/installation#using-npm), and [rust toolchain](https://www.rust-lang.org/tools/install) are required):    
- 1. Clone DHCord repo: `git clone https://github.com/Daniel224455/DHCord`    
- 2. Run `pnpm install` to install dependencies   
- 3. Build with `npm run build`   
- 4. Compile/Package with `npm run package`    
+ 1. Clone DHCord repo: `git clone https://github.com/Daniel224455/DHCord && cd DHCord`    
+ 2. Run `chmod 755 build.sh`
+ 3. Build with `./build.sh`   
+ 4. Go to dist folder and there should be the compiled file  
 
 
 # FAQ
