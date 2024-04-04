@@ -17,11 +17,12 @@ if "%CHOICE%" equ "2" goto PRINT_LINKS
    @echo https://nodejs.org/en
    @echo https://www.rust-lang.org/tools/install (use rustup!)
    @echo After installing them, please re-run the batch.
-   timeout 20
+   PAUSE
    @echo.
 :COMPILE_DHCORD
 ) else (
    @echo.
+   PAUSE
    echo test
    echo.
    echo finished
