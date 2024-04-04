@@ -12,7 +12,6 @@ set /p CHOICE="Please select:"
 if "%CHOICE%" equ "Y" goto COMPILE_DHCORD
 if "%CHOICE%" equ "N" goto PRINT_LINKS
 :PRINT_LINKS
-) else (
    @echo off
    @echo.
    @echo https://nodejs.org/en
