@@ -35,6 +35,7 @@ if "%CHOICE%" equ "3" goto COMPILE_DHCORD
 :INSTALL_DEPENDENCIES
 ) else (
    @echo.
+   cmd /k
    npm install -g pnpm
    PAUSE
    pnpm install
