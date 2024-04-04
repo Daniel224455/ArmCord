@@ -18,7 +18,7 @@ if "%CHOICE%" equ "3" goto COMPILE_DHCORD
    @echo off
    @echo.
    start https://nodejs.org/dist/v20.12.1/node-v20.12.1-x64.msi
-   start https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe" class="button button-secondary
+   start https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe
    start https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
    @echo After installing them, please re-run the batch and go to step 2.
    PAUSE
