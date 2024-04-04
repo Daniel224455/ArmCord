@@ -35,10 +35,8 @@ if "%CHOICE%" equ "3" goto COMPILE_DHCORD
 :INSTALL_DEPENDENCIES
 ) else (
    @echo.
-   cmd /k
-   npm install -g pnpm
+   npm install -g pnpm && pnpm install
    PAUSE
-   pnpm install
    @echo.
    @echo Re-run the bat and go to step 3.
 )
