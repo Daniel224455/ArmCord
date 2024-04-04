@@ -26,8 +26,7 @@ if "%CHOICE%" equ "3" goto COMPILE_DHCORD
 :COMPILE_DHCORD
 ) else (
    @echo.
-   npm run build
-   npm run releaseBuild
+   npm run build && npm run releaseBuild
    @echo DHCord finished compiling. Go to the /dist/ folder and install DHCord.
    PAUSE
    @echo.
@@ -35,8 +34,8 @@ if "%CHOICE%" equ "3" goto COMPILE_DHCORD
 :INSTALL_DEPENDENCIES
 ) else (
    @echo.
+   @echo Re-run the bat after it closes and go to step 3.
    npm install -g pnpm && pnpm install
    PAUSE
    @echo.
-   @echo Re-run the bat and go to step 3.
 )
