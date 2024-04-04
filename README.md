@@ -51,7 +51,12 @@
 # How to run/install it?
 
 ### Windows and Linux
-Use the pre-built installers from our releases page.
+ Alternatively, you can run DHCord from source ([NodeJS](https://nodejs.dev), [pnpm](https://pnpm.io/installation#using-npm), and [rust toolchain](https://www.rust-lang.org/tools/install) are required):
+ 0. Run CMD with Admin privileges.    
+ 1. Clone DHCord repo: `git clone https://github.com/Daniel224455/DHCord`    
+ 2. Run `pnpm install` to install dependencies   
+ 3. Build with `npm run build`   
+ 4. Compile/Package with `npm run package`  
 
 
 ### Pre-built binaries:
