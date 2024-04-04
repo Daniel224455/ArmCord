@@ -12,7 +12,6 @@ set /p CHOICE="Please select:"
 if "%CHOICE%" equ "1" goto COMPILE_DHCORD
 if "%CHOICE%" equ "2" goto PRINT_LINKS
 :PRINT_LINKS
-   @echo off
    @echo.
    @echo https://nodejs.org/en
    @echo https://www.rust-lang.org/tools/install (use rustup!)
