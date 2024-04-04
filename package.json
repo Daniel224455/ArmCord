@@ -20,6 +20,7 @@
         "CIbuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip && electron-builder --macos zip",
         "kickstartBuild": "npm run build && electron-builder --linux && electron-builder --windows zip",
         "kickstartBuildAarch64": "npm run build && electron-builder --linux --arm64 && electron-builder --windows zip --arm64",
+        "DeveloperTest": "npm run build && electron-builder --windows --x64",
         "WOATestBuild": "npm run build && electron-builder --windows --x64 --arm64",
         "ARM32LinuxBuild": "npm run build && electron-builder --armv7l --linux",
         "prepare": "git config --local core.hooksPath .hooks/"
