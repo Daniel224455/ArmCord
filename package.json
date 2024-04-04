@@ -79,7 +79,7 @@
             "maintainer": "Daniel6745, wawalol",
             "target": [
                 "deb",
-                "tar.gz",
+                "tar.gz"
             ]
         }
     },
