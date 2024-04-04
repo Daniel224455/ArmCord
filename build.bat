@@ -23,10 +23,10 @@ if "%CHOICE%" equ "2" goto PRINT_LINKS
 :COMPILE_DHCORD
 ) else (
    @echo.
-   PAUSE
    npm install -g pnpm
    pnpm install
    npm run build
    npm run releaseBuild
    @echo DHCord finished compiling. Go to the /dist/ folder and install DHCord.
+   PAUSE
 )
