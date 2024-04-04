@@ -9,7 +9,7 @@
 [<img alt="wawalol" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/126290309?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/wawaloll)
 
 # Statistics
-## Last build for Windows at [??]
+## Last build for Windows at April 3, 2024 at 8:11 p.m.
 ## Last build for Linux(Debian-based OS) at [??]
 
 
