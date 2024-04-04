@@ -18,8 +18,8 @@
         "format": "prettier --write src *.json",
         "lint": "eslint src --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
         "CIbuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip && electron-builder --macos zip",
-        "kickstartBuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip",
-        "kickstartBuildAarch64": "npm run build && electron-builder --linux zip --arm64 && electron-builder --windows zip --arm64",
+        "kickstartBuild": "npm run build && electron-builder --linux && electron-builder --windows zip",
+        "kickstartBuildAarch64": "npm run build && electron-builder --linux --arm64 && electron-builder --windows zip --arm64",
         "WOATestBuild": "npm run build && electron-builder --windows --x64 --arm64",
         "ARM32LinuxBuild": "npm run build && electron-builder --armv7l --linux",
         "prepare": "git config --local core.hooksPath .hooks/"
