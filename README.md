@@ -4,17 +4,15 @@
  <br>DHCord is a custom client based on ArmCord, designed to enhance your Discord experience while keeping everything lightweight. 
 </div>
 
+
 ## Contributors
 [<img alt="Daniel224455" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/90069111?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Daniel224455)
 [<img alt="wawalol" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/126290309?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/wawaloll)
 
 # Statistics
-## Last build for Windows at April 3, 2024 at 8:11 p.m.
-## Last build for Linux(Debian-based OS) at 4:12a.m.
+ Last build for `Windows` at `April 3, 2024 at 8:11 p.m.`
+ Last build for `Linux(Debian-based OS)` at `4:12a.m.`
 
-# Change Splash
-## To change the splash before building, go to src\splash. Replace the line 21, which should contain `<source src="` to any video URL.
-# Features
 
 - **Standalone client** 
 
@@ -92,6 +90,9 @@
 ## Where can I find the source code?
 - The source code is on [GitHub](https://github.com/Daniel224455/DHCord).
 
+# Change Splash
+## To change the splash before building, go to src\splash. Replace the line 21, which should contain `<source src="` to any video URL.
+# Features
 
 # Credits
 - [ArmCord UI design, branding, and a few features](https://github.com/kckarnige)
