@@ -64,9 +64,8 @@ if "%CHOICE%" equ "3" goto COMPILE_DHCORD
    @echo       QQQQQQQWQQQWQQQQQQWQQQWQQQQQWQQQQQQQQQQQQQQQQWQQQQQWQQQWWWQQQQQQQQQQQQQQQWQ
    @echo.
    @echo        Kicking off build...
+   @echo        After compiling, go to the /dist/ folder and install DHCord.
    npm run build && npm run releaseBuild
-   @echo DHCord finished compiling. Go to the /dist/ folder and install DHCord.
-   timeout 20
    @echo.
 
 :INSTALL_DEPENDENCIES
