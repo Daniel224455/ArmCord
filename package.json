@@ -19,6 +19,7 @@
         "lint": "eslint src --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
         "CIbuild": "npm run build && electron-builder --linux zip && electron-builder --windows zip && electron-builder --macos zip",
         "kickstartBuild": "npm run build && electron-builder --linux && electron-builder --windows zip",
+        "kickstartBuildLinux": "npm run build && electron-builder --linux",
         "kickstartBuildAarch64": "npm run build && electron-builder --linux --arm64 && electron-builder --windows zip --arm64",
         "releaseBuild": "npm run build && electron-builder --windows --x64",
         "WOATestBuild": "npm run build && electron-builder --windows --x64 --arm64",
