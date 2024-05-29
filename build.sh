@@ -1,7 +1,7 @@
 echo "made by Daniel6745 and wawalol"
 echo "DHCord v1.0Alpha installer"
 echo "installing pnpm..."
-sudo apt install curl git wget npm
+sudo apt install curl git wget npm wine -y
 sudo npm install -g pnpm
 sudo npm install -g typescript 
 pnpm install
