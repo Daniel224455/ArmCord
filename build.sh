@@ -44,5 +44,5 @@ echo "made by denishatingclub.eu"
 echo "building DHCord..."
 npm run build
 echo "base files built successfully, moving onto electron build"
-npm run kickstartBuild
+npm run kickstartBuildLinux
 echo "DHCord built successfully, go under DHCord/dist and check if your built DHCord is there."
