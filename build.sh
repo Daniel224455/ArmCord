@@ -3,6 +3,7 @@ echo "DHCord v1.0Alpha installer"
 echo "installing pnpm..."
 sudo apt install curl git wget npm
 npm install -g pnpm
+npm install -g typescript 
 pnpm install
 echo "installing pnpm and dependencies finished..."
 echo "installing nodeJS"
